@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 
+    mr10 -> margin-right: 10px;
+    mt10 -> margin-top: 10px;
+    mb10 -> margin-bottom: 10px;
+    lh12 -> line-height: 12px;
+    zi1 -> z-index: 1;
+    w100 -> width: 100px;
+    h12 -> height: 12px; 
+    b0 -> bottom: 0px;
+    r0 -> right: 0px;
+    if you need other value, please push into the map you wanna set
+*/
+.mr10 {
+  margin-right: 10px; }
+
+.mr12 {
+  margin-right: 12px; }
+
+.ml10 {
+  margin-left: 10px; }
+
+.mt10 {
+  margin-top: 10px; }
+
+.mt66 {
+  margin-top: 66px; }
+
+.mb10 {
+  margin-bottom: 10px; }
+
+.mb16 {
+  margin-bottom: 16px; }
+
+.fs12 {
+  font-size: 12px; }
+
+.fs13 {
+  font-size: 13px; }
+
+.fs14 {
+  font-size: 14px; }
+
+.fs20 {
+  font-size: 20px; }
+
+.fs28 {
+  font-size: 28px; }
+
+.lh12 {
+  line-height: 12px; }
+
+.lh13 {
+  line-height: 13px; }
+
+.lh40 {
+  line-height: 40px; }
+
+.w136 {
+  width: 136px; }
+
+.zi1 {
+  z-index: 1; }
+
+.h12 {
+  height: 12px; }
+
+.br3 {
+  border-radius: 3px; }
+
+.b0 {
+  bottom: 0px; }
+
+.r0 {
+  right: 0px; }
+
+.df {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbpx;
+  display: -webkit-flex;
+  display: flex; }
+  .df.h-center {
+    /* 09版 */
+    -webkit-box-pack: center;
+    /* 12版 */
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center; }
+  .df.v-center {
+    /* 09版 */
+    -webkit-box-align: center;
+    /* 12版 */
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center; }
+
+.di {
+  display: inline; }
+
+.dib {
+  display: inline-block; }
+
+.tc {
+  text-align: center; }
+
+.r {
+  float: right; }
+
+.abs {
+  position: absolute; }
+
+.rel {
+  position: relative; }
+
+.pointer {
+  cursor: pointer; }
+
+.tr2 {
+  transition: all .2s; }
+
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.c_fff {
+  color: #fff; }

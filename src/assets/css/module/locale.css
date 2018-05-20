@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.df {
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbpx;
+  display: -webkit-flex;
+  display: flex; }
+  .df.h-center {
+    /* 09版 */
+    -webkit-box-pack: center;
+    /* 12版 */
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center; }
+  .df.v-center {
+    /* 09版 */
+    -webkit-box-align: center;
+    /* 12版 */
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center; }
+
+.di {
+  display: inline; }
+
+.dib {
+  display: inline-block; }
+
+.tc {
+  text-align: center; }
+
+.r {
+  float: right; }
+
+.abs {
+  position: absolute; }
+
+.rel {
+  position: relative; }

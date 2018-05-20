@@ -1,0 +1,37 @@
+.menus-item {
+  width: 6rem;
+  height: 2.5rem;
+  line-height: 2.5rem; }
+  .menus-item:hover {
+    color: #F4B0A4; }
+  .menus-item.active {
+    background-color: #393838;
+    color: #fff; }
+
+header .bg {
+  padding-top: 30%;
+  background-color: #db5b43;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+header .word {
+  width: 39.375rem;
+  height: 10.4375rem;
+  background-color: #db5b43;
+  padding: 2.25rem; }
+  header .word h1 {
+    font-size: 3.125rem;
+    margin-bottom: 1rem; }
+  header .word h4 {
+    font-size: 1.5rem; }
+
+header .line-2 {
+  border-top: 2px solid #f4b0a4;
+  border-bottom: 2px solid #f4b0a4;
+  padding: 3px 0 0 0;
+  flex: 1;
+  margin: 0 1.5rem; }
+
+header .empty {
+  height: 2.5rem; }
