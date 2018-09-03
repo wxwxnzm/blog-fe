@@ -7,13 +7,13 @@ title: geekJx的博客
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: guojianxiang
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://geekjx.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  repo: https://github.com/wxwxnzm/blog-fe.git
+  branch: hexo
