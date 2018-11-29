@@ -80,4 +80,4 @@ theme: icarus
 deploy:
   type: git
   repo: https://github.com/wxwxnzm/blog-fe.git
-  branch: hexo
+  branch: hexo1
